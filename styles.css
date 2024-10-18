@@ -1,0 +1,151 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 100px 0 100px 60px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 50px;
+    width: 130px;
+    height: 42px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .button-main {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .link-header, .button-header {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .button-main {
+        font-size: 20px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button-header, .button-main {
+        width: 100%;
+        text-align: center;
+    }
+}
