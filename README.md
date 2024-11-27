@@ -1,4 +1,4 @@
-<p>We Care</p>
+<h1>We Care</h1>
 <br>
 <br>
 <h1>Esse foi mais um projeto que aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h1>
